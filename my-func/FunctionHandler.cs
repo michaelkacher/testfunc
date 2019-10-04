@@ -7,7 +7,7 @@ namespace Function
         public Task<string> Handle(string input)
         {
             // var abc = JsonSerializer.Deserialize<MyModel>(data);
-            return Task.FromResult($"Echo: {input}");
+            return Task.FromResult($"Echozz: {input}");
         }
     }
 }
